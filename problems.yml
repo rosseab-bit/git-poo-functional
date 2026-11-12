@@ -1,0 +1,49 @@
+- title: "Suma dos números"
+  prompt: "Escribe `suma(a, b)` que devuelva a + b."
+  hints: ["Usa operadores aritméticos", "Devuelve el resultado"]
+  tags: ["funciones", "aritmética"]
+
+- title: "Es número par"
+  prompt: "Escribe `es_par(n)` que devuelva `True` si n es par y `False` si es impar."
+  hints: ["Usa el operador módulo `%`", "Compara la resta del módulo con 0"]
+  tags: ["funciones", "condicionales", "booleans"]
+
+- title: "Calcular el promedio de una lista"
+  prompt: "Escribe `promedio(lista)` que devuelva el valor medio de una lista de números."
+  hints: ["Usa `sum()` para la suma total", "Usa `len()` para obtener la cantidad de elementos"]
+  tags: ["funciones", "listas", "estadística"]
+
+- title: "Contar vocales en un texto"
+  prompt: "Escribe `contar_vocales(texto)` que devuelva la cantidad total de vocales (a, e, i, o, u) en una cadena."
+  hints: ["Itera sobre cada carácter del texto", "Convierte el texto a minúsculas con `.lower()` antes de comparar"]
+  tags: ["funciones", "strings", "iteración"]
+
+- title: "Filtrar números mayores a un umbral"
+  prompt: "Escribe `filtrar_mayores(lista, umbral)` que devuelva una nueva lista solo con los números estrictamente mayores al umbral dado."
+  hints: ["Puedes usar una comprensión de listas", "O iterar y agregar con `.append()`"]
+  tags: ["funciones", "listas", "filtrado"]
+
+- title: "Encontrar el valor máximo y su índice"
+  prompt: "Escribe `maximo_e_indice(lista)` que devuelva una tupla con el valor máximo y la posición (índice) donde se encuentra."
+  hints: ["Usa `max()` para el valor", "Usa `.index()` para encontrar la posición del elemento"]
+  tags: ["funciones", "listas", "tuplas"]
+
+- title: "Invertir una cadena de texto"
+  prompt: "Escribe `invertir_cadena(texto)` que devuelva el string invertido."
+  hints: ["Usa slicing de strings con paso negativo `[::-1]`"]
+  tags: ["funciones", "strings", "slicing"]
+
+- title: "Frecuencia de palabras"
+  prompt: "Escribe `frecuencia_palabras(lista_palabras)` que reciba una lista de palabras y devuelva un diccionario con la cantidad de apariciones de cada una."
+  hints: ["Inicializa un diccionario vacío", "Itera y suma 1 si la clave ya existe o asígnala en 1 si es nueva"]
+  tags: ["funciones", "diccionarios", "conteo"]
+
+- title: "Calcular factorial"
+  prompt: "Escribe `factorial(n)` que calcule y devuelva el factorial de un número entero positivo n."
+  hints: ["Puedes usar un bucle `for` acumulando el producto", "Recuerda que el factorial de 0 y 1 es 1"]
+  tags: ["funciones", "matemática", "bucles"]
+
+- title: "Remover duplicados manteniendo el orden"
+  prompt: "Escribe `remover_duplicados(lista)` que devuelva una lista sin elementos repetidos, manteniendo el orden de aparición original."
+  hints: ["Itera sobre la lista original y agrega elementos a una nueva lista solo si no están presentes", "Evita usar `set()` directo si deseas preservar el orden exacto"]
+  tags: ["funciones", "listas", "estructuras-de-datos"]
